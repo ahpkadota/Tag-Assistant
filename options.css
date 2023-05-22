@@ -1,0 +1,35 @@
+td,
+th {
+    width: 15px;
+    height: 15px;
+    min-width: 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+th {
+    max-width: 200px;
+    background-color: #eee;
+}
+
+.red {
+    background-color: #f00;
+}
+
+.green {
+    background-color: #0f0;
+}
+
+.blue {
+    background-color: #00f;
+}
+
+.highlight {
+    background-color: rgba(144, 238, 144, 0.2);
+    background-blend-mode: multiply;
+
+  }
